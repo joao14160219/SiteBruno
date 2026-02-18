@@ -11,32 +11,37 @@
 
 <body class="page">
 
-  <!-- Header fixo -->
   <header class="site-header">
-    <div class="container header-grid">
-      <a href="#" class="brand" aria-label="Clínica CEMS">
-        <span class="brand-dot" aria-hidden="true"></span>
+  <div class="container header-grid">
+
+    <a href="#" class="brand" aria-label="Clínica CEMS">
+      <img src="logo.png" alt="Logo Clínica CEMS" class="brand-logo">
+      <div class="brand-text">
         <strong>CLÍNICA CEMS</strong>
+        <span class="brand-sub">Dr Bruno Del Guerra • CRM 236166</span>
+      </div>
+    </a>
+
+    <nav class="nav" aria-label="Menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Atuação</a>
+      <a href="#local">Local</a>
+      <a href="#contato">Contato</a>
+
+      <a class="btn cta"
+         href="https://wa.me/5511934426022?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta."
+         target="_blank" rel="noopener">
+        Agendar
       </a>
+    </nav>
 
-      <nav class="nav" aria-label="Menu">
-        <a href="#sobre">Sobre</a>
-        <a href="#servicos">Atuação</a>
-        <a href="#local">Local</a>
-        <a href="#contato">Contato</a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
 
-        <a class="btn cta"
-           href="https://wa.me/5511934426022?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta.%20Pode%20me%20informar%20os%20hor%C3%A1rios%20dispon%C3%ADveis%3F"
-           target="_blank" rel="noopener">
-          Agendar
-        </a>
-      </nav>
+  </div>
+</header>
 
-      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
 
   <!-- Hero -->
   <section class="hero" aria-label="Apresentação">
@@ -45,17 +50,17 @@
       <div class="hero-copy">
         <p class="eyebrow">Atendimento presencial e on-line</p>
 
-        <h1>Saúde integral com olhar humano e decisões clínicas claras.</h1>
+        <h1>Atendimento médico completo para sua saúde e qualidade de vida.</h1>
 
         <p class="lead">
-          Mais de 10 anos na área da saúde e mais de 5 mil atendimentos.
-          Foco em prevenção, acompanhamento responsável e bem-estar real (sem promessas mágicas).
+          Mais de 10 anos de experiência e mais de 5.000 pacientes atendidos com foco em prevenção, diagnóstico preciso e acompanhamento responsável.
+.
         </p>
 
         <div class="actions">
           <a class="btn cta"
              href="https://wa.me/5511934426022?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta.%20Pode%20me%20informar%20os%20hor%C3%A1rios%20dispon%C3%ADveis%3F"
-             target="_blank" rel="noopener">Agendar no WhatsApp</a>
+             target="_blank" rel="noopener">Agendar consulta agora</a>
 
           <a class="btn ghost" href="#servicos">Ver áreas de atuação</a>
         </div>
@@ -77,7 +82,7 @@
       </div>
 
       <div class="hero-photo-wrap" aria-label="Foto do profissional">
-        <img class="hero-photo" src="B.png" alt="Profissional da Clínica CEMS" />
+        <img class="hero-photo" src="/img/B.png" alt="Profissional da Clínica CEMS" />
         <div class="photo-glow" aria-hidden="true"></div>
       </div>
 
@@ -88,14 +93,24 @@
   <section id="sobre" class="section">
     <div class="container two-cols">
       <div class="stack">
+        <div class="doctor-id">
+            <h3 class="doctor-name">Dr Bruno Del Guerra</h3>
+            <span class="doctor-crm">CRM 236166</span>
+        </div>
+
         <h2>Sobre</h2>
         <p>
-          A Clínica CEMS atua com abordagem clínica e preventiva, unindo saúde coletiva,
-          acompanhamento individual e orientações práticas para o dia a dia.
+          Atendimento voltado para adultos que desejam:
+            Fazer check-ups completos
+            Tratar sintomas como cansaço, dores ou baixa energia
+            Emagrecer com segurança e acompanhamento médico
+            Melhorar a qualidade do sono
+            Cuidar da saúde hormonal
+            Ter um médico de confiança para acompanhamento contínuo
         </p>
 
         <ul class="checks">
-          <li>Atendimento objetivo, sem enrolação</li>
+          <li>Atendimento com experiência e responsabilidade</li>
           <li>Plano de cuidado com acompanhamento</li>
           <li>Foco em prevenção e qualidade de vida</li>
         </ul>
@@ -105,10 +120,10 @@
         <h3>Principais frentes</h3>
         <p class="muted">Atuação completa, do preventivo ao acompanhamento de condições específicas.</p>
         <div class="pill-grid">
-          <span class="pill">Saúde mental</span>
-          <span class="pill">Clínica geral</span>
-          <span class="pill">Ginecologia</span>
-          <span class="pill">Obesidade</span>
+          <span class="pill">Prevenção de doenças</span>
+          <span class="pill">Diagnóstico preciso</span>
+          <span class="pill">Tratamentos seguros e personalizados</span>
+          <span class="pill">Acompanhamento contínuo do paciente</span>
           <span class="pill">Distúrbios metabólicos</span>
           <span class="pill">Saúde coletiva</span>
         </div>
@@ -311,4 +326,3 @@
   </script>
 </body>
 </html>
-

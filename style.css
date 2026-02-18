@@ -336,3 +336,44 @@ p{color:var(--muted); line-height:1.55}
   .grid-3{grid-template-columns:repeat(3, 1fr); gap:16px}
   .footer-grid{flex-direction:row; justify-content:space-between; align-items:center}
 }
+
+/* Logo Header */
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  text-decoration:none;
+}
+
+.brand-logo{
+  height:48px;
+  width:auto;
+}
+
+.brand-text{
+  display:flex;
+  flex-direction:column;
+  line-height:1.1;
+}
+
+.brand-text strong{
+  color:var(--cream);
+  font-weight:900;
+  letter-spacing:.5px;
+}
+
+.brand-sub{
+  font-size:12px;
+  color:rgba(230,210,181,.8);
+  font-weight:600;
+}
+
+/* CRM hero */
+.crm{
+  font-weight:700;
+  color:var(--cream);
+  margin-top:-8px;
+  margin-bottom:16px;
+  font-size:14px;
+  letter-spacing:.08em;
+}
